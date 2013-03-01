@@ -44,7 +44,7 @@ function selector(el) {
     }
 
     var label = el.tagName
-    // must be a document
+    // avoid documents
     if (!label) return selector
     var className = el.getAttribute('class');
 
